@@ -1,0 +1,67 @@
+.home-container > section > .content >.btn {
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.home-container > section > .content > .btn:hover {
+    letter-spacing: 0.1rem;
+}
+
+.home-container {
+    background-image: url("/assets/img/pages/index/home-img.jpeg");
+    background-position: center ;
+    background-size: cover;
+}
+
+.home-container > section > .content {
+    max-width: 60rem;
+}
+
+.home-container > section >  .content > h1{
+    color: var(--text-color);
+    font-size: 6rem;
+}   
+
+.home-container > section > .content > p {
+    color: var(--text-color);
+    font-size: 2rem;
+    font-weight: 450;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.home-container > section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 410px){
+    .home-container {
+        background-position: start;
+        background-size: 700px 600px;
+        background-repeat: no-repeat; 
+    }
+
+    .home-container > section > .content > h1{
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .home-container > section > .content > p {
+        font-size: 1.1rem;
+        width: 70%;
+        text-wrap: normal;
+    }
+
+    .home-container > section > .content > .btn {
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+    }
+}

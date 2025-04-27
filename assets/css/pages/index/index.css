@@ -1,0 +1,9 @@
+@import "../../global/global.css";
+
+@import "partials/header.css";
+@import "partials/home-container.css";
+@import "partials/about.css";
+@import "partials/menu.css";
+@import "partials/review.css";
+@import "partials/address.css";
+@import "partials/footer.css";
